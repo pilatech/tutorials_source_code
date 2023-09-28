@@ -1,0 +1,53 @@
+/*
+
+green #23a559
+slide bg #1E1F22
+main bg #313338
+
+*/
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    font-family: 'Dosis', sans-serif;
+    font-size: 18px;
+    background: #313338; 
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-width: 150px;
+}
+
+.widget-link {
+    text-decoration: none;
+    padding: 15px;
+    background: #1e1f22;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-block: 2px;
+    border-radius: 0 5px 5px 0;
+    transform: translateX(-60%);
+    transition: color .5s;
+    transition: transform .5s;
+}
+
+.widget-link:hover {
+    color: #23a559;
+    transform: translateX(0);
+}
+
+.icon {
+    background: #313338;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
